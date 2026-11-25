@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><title>Asymptote</title>
+<script>
+// Dla projektowych Pages (user.github.io/repo/...) zmień 1 na 0 lub odwrotnie, patrz niżej.
+var skip = 1;
+var p = location.pathname.split("/").slice(1 + skip).join("/");
+location.replace("https://asymptote.pl/" + p + location.search + location.hash);
+</script></head>
+<body><p>Przenosimy Cię na <a href="https://asymptote.pl/">asymptote.pl</a>.</p></body></html>
